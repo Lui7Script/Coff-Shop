@@ -6,6 +6,7 @@ navbar.classList.toggle('active');
 
 }
 
+//
 
 let searchForm = document.querySelector('.search-form')
 
@@ -15,6 +16,7 @@ searchForm.classList.toggle('active');
 
 }
 
+//
 
 let cartItem = document.querySelector('.cart-items-container')
 

@@ -214,6 +214,44 @@ color: var(--main-color);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*media queries */
 
 @media(max-width:991px){
@@ -223,13 +261,14 @@ color: var(--main-color);
     }
 
     header{
-
-        padding: 1.5rem 2rem;
+       padding: 1.5rem 2rem;
     }
 }
 
+ 
 
-@media(max-width:991px){
+
+@media(max-width:768px){
 
     
     #menu-btn{
@@ -268,13 +307,11 @@ color: var(--main-color);
 @media(max-width:450px){
 
     html{
-        font-size:  55%;
+        font-size: 50%;
+   
     }
 
-    header{
-
-        padding: 1.5rem 2rem;
-    }
+   
 }
 
 
