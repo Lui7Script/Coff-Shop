@@ -237,7 +237,7 @@ color: var(--main-color);
 
 
 .home .content p{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: lighter;
     line-height:1.8;
     padding: 1rem 0;
@@ -343,6 +343,24 @@ color: var(--main-color);
     }
 
 }
+    
+    .home{
+        background-position:left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+     
+        font-size:4.5rem ;
+    }
+
+    .home .content p{
+     
+        font-size:1.5rem ;
+    }
+
+
 
 @media(max-width:450px){
 
