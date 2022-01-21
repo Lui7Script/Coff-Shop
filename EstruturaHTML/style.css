@@ -47,6 +47,10 @@ body {
     background: var(--bg);
 }
 
+section {
+    padding: 2rem -7%;
+}
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -221,6 +225,28 @@ color: var(--main-color);
     background-position:center;
 }
 
+.home .content{
+    max-width: 60rem ;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.home .content p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height:1.8;
+    padding: 1rem 0;
+    color: #eee;
+}
+
+
+
+
 
 
 
@@ -272,6 +298,11 @@ color: var(--main-color);
     header{
        padding: 1.5rem 2rem;
     }
+
+    section {
+        padding: 2rem;
+    }
+
 }
 
  
