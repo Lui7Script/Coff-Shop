@@ -5,7 +5,7 @@
     --main-color: #d3ad7f;
     --black: #13131a;
     --bg: #010103;
-    border: 1rem solid rgba(255, 255, 255, .3);
+    --border: 0.5rem solid rgba(255, 255, 255, 0.884);
 }
 
 * {
@@ -262,18 +262,37 @@ section {
     padding: 2rem;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
     font-size: 3rem;
     color: #fff;
 }
 
-.about .row .content p{
-   font-size: 1.6rem;
-   color: #ccc;
-   padding: 1rem 0;
-   line-height: 1.8;
+.about .row .content p {
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
 }
 
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box{
+padding: 5rem;
+text-align: center;
+border: var(--border);
+
+} 
+
+.menu .box-container .box img{
+    height: 10rem;
+
+
+
+}
 
 
 
