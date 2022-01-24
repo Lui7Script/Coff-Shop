@@ -2,7 +2,6 @@
 
 
 :root {
-
     --main-color: #d3ad7f;
     --black: #13131a;
     --bg: #010103;
@@ -29,23 +28,19 @@ html {
 }
 
 html ::-webkit-scrollbar {
-
     width: .8rem;
 }
 
 html ::-webkit-scrollbar-track {
-
     background: transparent;
 }
 
 html ::-webkit-scrollbar-thumb {
-
     background: #fff;
     border-radius: 5rem;
 }
 
 body {
-
     background: var(--bg);
 }
 
@@ -78,15 +73,10 @@ section {
 }
 
 .btn:hover {
-
     letter-spacing: .2rem;
-
-
-
 }
 
 .header {
-
     background: var(--bg);
     display: flex;
     align-items: center;
@@ -101,7 +91,6 @@ section {
 }
 
 .header .logo img {
-
     height: 6rem;
 }
 
@@ -112,15 +101,12 @@ section {
 }
 
 .header .navbar a:hover {
-
     color: var(--main-color);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
-
 }
 
 .header .icons div {
-
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -128,12 +114,10 @@ section {
 }
 
 .header .icons div:hover {
-
     color: var(--main-color);
 }
 
 #menu-btn {
-
     display: none;
 }
 
@@ -152,12 +136,9 @@ section {
 
 .header .search-form.active {
     transform: scaleY(1);
-
-
 }
 
 .header .search-form input {
-
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
@@ -167,7 +148,6 @@ section {
 }
 
 .header .search-form label {
-
     cursor: pointer;
     font-size: 2.2rem;
     margin-right: 1.5rem;
@@ -175,7 +155,6 @@ section {
 }
 
 .header .search-form label:hover {
-
     color: var(--main-color);
 }
 
@@ -191,9 +170,7 @@ section {
 
 .header .cart-items-container.active {
     right: 0;
-
 }
-
 
 .header .cart-items-container .cart-item {
     position: relative;
@@ -286,18 +263,15 @@ section {
 }
 
 .about .row .content h3{
-    font-size: 3.5rem;
-    color: #ccc;
-    padding: 1rem 0;
-    line-height: 1.8;
+    font-size: 3rem;
+    color: #fff;
 }
 
 .about .row .content p{
-   font-size: 1rem;
-   color: white;
+   font-size: 1.6rem;
+   color: #ccc;
    padding: 1rem 0;
-  
-
+   line-height: 1.8;
 }
 
 

@@ -28,7 +28,7 @@ navbar.classList.remove('active');
 searchForm.classList.remove('active');
 }
 
-window.onscroll = () => { 
+ window.onscroll = () => { 
 
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
