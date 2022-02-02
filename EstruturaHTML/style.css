@@ -493,7 +493,7 @@ section {
 }
 
 .blogs .box-container .box .content .title {
-    font-size:2.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
     color: #fff;
 }
@@ -503,24 +503,52 @@ section {
 }
 
 
-.blogs .box-container .box .content span{
-   color: var(--main-color);
-   display: block;
-   padding-top: 1rem;
-   font-size:2rem;
+.blogs .box-container .box .content span {
+    color: var(--main-color);
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
 }
 
-.blogs .box-container .box .content p{
-   font-size: 1.6rem;
-   line-height: 1.8;
-   color: #ccc;
-   padding: 1rem 0;
+.blogs .box-container .box .content p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 1rem 0;
 }
 
-.footer{
-   background: var(--main-color);   
-   text-align: center;
+.footer {
+    background: var(--main-color);
+    text-align: center;
 }
+
+.footer .share {
+    padding: 1rem 0;
+}
+
+.footer .share a{
+    height:5rem;
+    width:5rem;
+    line-height:5rem;
+    font-size:2rem;
+    color: #fff;
+    border: var(--border);
+    margin: .3rem ;
+    border-radius:50%;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1rem;
+}
+
 
 
 
