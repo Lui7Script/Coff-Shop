@@ -518,7 +518,7 @@ section {
 }
 
 .footer {
-    background: var(--main-color);
+    background: var(--black);
     text-align: center;
 }
 
@@ -542,19 +542,36 @@ section {
 }
 
 .footer .links{
-    display: flex;
+    display: inline; 
     justify-content: center;
     flex-wrap: wrap;
     padding: 2rem;
     gap: 1rem;
 }
 
+.footer .links a{
+    padding: .7rem 2rem;
+    color: #fff;
+    border: var(--border);
+}
+
+.footer .links a:hover{
+    background: var(--main-color);
+}
 
 
+.footer .credit{
+    font-size:2rem;
+    color: black;
+    font-weight:line;
+    padding: 1.5rem;
+}
 
 
+.footer .credit span {
+   font-size: initial;
 
-
+}
 
 
 
