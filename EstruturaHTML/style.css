@@ -484,7 +484,7 @@ section {
     width: 100%;
 }
 
-.blogs .box-container .box .image .box:hover .image img {
+.blogs .box-container .box:hover .image img {
     transform: scale(1.2);
 }
 
@@ -493,12 +493,34 @@ section {
 }
 
 .blogs .box-container .box .content .title {
-    font-size: 2.5rem;
+    font-size:2.5rem;
     line-height: 1.5;
     color: #fff;
 }
 
+.blogs .box-container .box .content .title:hover {
+    color: var(--main-color);
+}
 
+
+.blogs .box-container .box .content span{
+   color: var(--main-color);
+   display: block;
+   padding-top: 1rem;
+   font-size:2rem;
+}
+
+.blogs .box-container .box .content p{
+   font-size: 1.6rem;
+   line-height: 1.8;
+   color: #ccc;
+   padding: 1rem 0;
+}
+
+.footer{
+   background: var(--main-color);   
+   text-align: center;
+}
 
 
 
@@ -532,7 +554,6 @@ section {
     section {
         padding: 2rem;
     }
-
 }
 
 
